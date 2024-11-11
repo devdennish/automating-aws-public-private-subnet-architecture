@@ -45,6 +45,12 @@ The infrastructure contains following key components:
 - **`igw.sh`**: Creates the internet gateway and attaches it to the vpc
 - **`nat_gateways.sh`**: Creates the nate gateways on public subnets
 - **`route_tables.sh`**: Creates the route tables, create routes and associates the subnets with route tables
+- **`security_group.sh`**: Creates security group and associates inbound rules
+- **`key_pair.sh`**: Creates fresh keypair and stores it on your local machine
+- **`launch_template.sh`**: Creates the launch template to create instances for auto scaling
+- **`auto_scaling_group.sh`**: Creates an auto scaling group
+- **`target_group.sh`**: Creates a target group for lb load_balancer.sh
+- **`load_balancer.sh`**: Creates a load balancer
 
 ## License
 
