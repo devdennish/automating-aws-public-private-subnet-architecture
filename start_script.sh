@@ -24,5 +24,17 @@ source route_tables.sh
 # Load the security group script
 source security_group.sh
 
+# Load the key pair script
+source key_pair.sh
+
 # Load the launch template script
 source launch_template.sh
+
+# Load the auto scaling group script
+source auto_scaling_group.sh
+
+# Load the target group script
+source target_group.sh
+
+# Load the load balancer script
+source load_balancer.sh
