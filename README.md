@@ -51,6 +51,7 @@ The infrastructure contains following key components:
 - **`auto_scaling_group.sh`**: Creates an auto scaling group
 - **`target_group.sh`**: Creates a target group for lb load_balancer.sh
 - **`load_balancer.sh`**: Creates a load balancer
+- **`user_data.sh`**: Contains user data which gets executed when instances are launched
 
 ## License
 
