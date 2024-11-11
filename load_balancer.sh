@@ -16,8 +16,7 @@ lb_arn=$(
         --output text
 )
 
-echo "Load balancer ARN: $lb_arn"
-# check_success "Load balancer created with arn: $lb_arn" "Load balancer creation failed"
+check_success "Load balancer created with arn: $lb_arn" "Load balancer creation failed"
 
 # Create a listener for the load balancer
 
